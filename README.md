@@ -3,7 +3,7 @@ tags: forms, sinatra
 languages: ruby, html
 ---
 
-# <form> lab
+# `<form>` lab
 
 ## Deliverables
 
