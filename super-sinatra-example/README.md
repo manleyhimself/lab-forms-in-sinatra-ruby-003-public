@@ -1,28 +1,22 @@
-##Create a Sinatra app with a form that allows you to fill a roster of super-heros.
----------------------------------------------------------------------------------
-##Objectives:
-1. create a form in HTML with nested attributes
-2. using ERB, select nested elements from a params hash
-3. display all nested attributes of params hash
+# Super Heroes!
 
-### Get up and running
-1. fork and then clone this repo
-2. `bundle install`
-3. `bundle exec shotgun`
-4. `localhost:9393`
+## Instructions
+
+1. `bundle install`
+2. `bundle exec shotgun`
 
 ### Make a form
 
-1. create a route that respond to a get request at `/`
-2. create a view, and update the route def so that the form will render in that view
-3. The form should as for the Name of a super-hero team and their moto
-4. There should be form inputs for each super hero member's name, their power and their bio
+1. Create a route that responds to a get request at `/`.
+2. Create a view and render in the GET `/` route.
+3. The form should have fields for the name of a super-hero team and their motto.
+4. There should be form inputs for each super-hero member's name, power and bio.
 
 It should look something like this:
 
 ![Imgur](http://i.imgur.com/zrbFWNE.png?1)
 
-### Post
+### Handle form submission
 
 1. create a route that respond to a get request at `/team`
 2. create a view that displays the team, each member and their names super-power and bio that you inputed
