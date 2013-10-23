@@ -11,10 +11,5 @@ module FormsLab
       @song = Song[params[:id]]
       erb :'songs/show'
     end
-
-    get '/songs/:id/:edit' do
-      @song = Song[params[:id]]
-      erb :'songs/edit'
-    end
   end
 end
