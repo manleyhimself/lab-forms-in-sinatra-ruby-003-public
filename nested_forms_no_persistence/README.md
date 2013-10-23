@@ -10,7 +10,7 @@ languages: ruby, html
 
   - Other examples: Artists and Songs, Programmers and Languages they know, Schools and Students
 
-  - Make a nested form (this should probably have html `<labels>` so it makes sense to a user).
+  - Make a nested form (this should probably have html `<label>`s so it makes sense to a user).
 
   - After a user clicks submit they should be taken to a page that displays all the information we just posted from the form.  In my example I'd have a page that showed the pirate I created along with his ships and all the details about the pirate and his ships.
 
@@ -18,11 +18,13 @@ languages: ruby, html
 
   - This is an excercise in REST conventions, HTML forms and params.  Please use the debugger and/or puts to see how changing the type of HTML you use changes the params. Spend some time thinking about your routes.
 
+## Example
+
 Often in web application development you'd like to have a form that will update multiple related objects at once.
 
 Let's say we're building a web application that had pirates and ships.
 
-When we create a typical form we do something like this where pirate is the class of the object we are working with.
+When we create a typical form we can do something like this where pirate is the class of the object we are working with.
 ```html
 <form action='/pirate' method="POST">
   <input ... name="pirate[name]" />
