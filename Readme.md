@@ -1,10 +1,6 @@
 ---
-layout: page
-type: lab
-title: "basic forms sinatra"
-date: 2013-06-13 11:54
-comments: true
-footer: true
+tags: forms, sinatra
+languages: ruby, html
 ---
 
 Before completing this lab you should be familiar with [HTML Forms](http://flatironschool.s3.amazonaws.com/curriculum/lecture_keynotes/forms.key), Sinatra, and the params hash.
