@@ -21,6 +21,10 @@ Create an edit form for the songs resource, utilize the params hash.
 
 `rake db:migrate`
 
+3) Seed the database with data
+
+`rake db:seed`
+
 ### Create the edit route
 
 Create an 'edit' route in app.rb and pass it a song id. This route is going to render the songs/edit template, so also create a song instance variable to pass to the view.
