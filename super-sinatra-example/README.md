@@ -1,12 +1,3 @@
----
-layout: page
-type: lab
-title: "nested_forms_no_persistence_super_heros"
-date: 2013-06-27 13:23
-comments: true
-footer: true
----
-
 ##Create a Sinatra app with a form that allows you to fill a roster of super-heros.
 ---------------------------------------------------------------------------------
 ##Objectives:
@@ -15,7 +6,7 @@ footer: true
 3. display all nested attributes of params hash
 
 ### Get up and running
-1. fork and then clone this repo: [Super-Sinatra](https://github.com/jeffreybaird/super-sinatra-example/)
+1. fork and then clone this repo
 2. `bundle install`
 3. `bundle exec shotgun`
 4. `localhost:9393`
@@ -40,10 +31,10 @@ It should look something like this:
 
 Your params should be nested, for example:
   you would access the first super-hero's name as:
-```ruby
+````ruby
   params["team"]["members"][0][name]
 
-```
+````
 When you post to this form you should render a page that displays the name of the team and each member of the team, along with their name, super power and bio.
 
 Your view should display something like this:

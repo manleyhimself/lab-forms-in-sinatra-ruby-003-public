@@ -14,5 +14,5 @@ Fork this repository. Deliver your work in the master branch.
 Complete each component of this lab in the following order:
 
 * Basic forms
-* Nested forms no persistance
-* Nested forms no persistance super heroes
+* Nested forms
+* Super Heroes!
