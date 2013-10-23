@@ -13,6 +13,6 @@ Fork this repository. Deliver your work in the master branch.
 
 Complete each component of this lab in the following order:
 
-* Basic forms
-* Nested forms
-* Super Heroes!
+* basic_forms
+* nested_forms_no_persistence
+* super_sinatra_example
