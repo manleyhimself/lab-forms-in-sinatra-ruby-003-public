@@ -43,4 +43,5 @@ Make sure that the 'action' attribute of your form points to the correct route, 
 
 ### Add the edit link
 
-Add a link on each students profile that directs users to the edit view. Students should be now be editable from here. Edit one.
+Add a link on each song show page that directs users to the edit view
+and fix the songs!.
