@@ -1,3 +1,37 @@
-<form action='/team' method="POST">
+<form action="/team" method="post">
 
+    <label for="name">Team Name</label>
+<input type="text" id="name" name="team">
+    <label for="motto">Team Motto</label>
+<input type="text" id="motto" name="motto">
+<br>
+<h2> Hero 0 </h2>
+<br>
+    <label for="hero_0_name">Hero's Name</label>
+<input type="text" id="hero_0_name" name="hero[0][name]">
+    <label for="hero_0_power">Hero's Power</label>
+<input type="text" id="hero_0_power" name="hero[0][power]">
+    <label for="hero_0_bio">Hero's Bio</label>
+<input type="text" id="hero_0_bio" name="hero[0][bio]">
+<br>
+<h2> Hero 1 </h2>
+<br>
+  <label for="hero_1_name">Hero's Name</label>
+<input type="text" id="hero_1_name" name="hero[1][name]">
+    <label for="hero_1_power">Hero's Power</label>
+<input type="text" id="hero_1_power" name="hero[1][power]">
+    <label for="hero_1_bio">Hero's Bio</label>
+<input type="text" id="hero_1_bio" name="hero[1][bio]">
+ <br>
+<h2> Hero 2 </h2>
+<br>
+  <label for="hero_2_name">Hero's Name</label>
+<input type="text" id="hero_2_name" name="hero[2][name]">
+    <label for="hero_2_power">Hero's Power</label>
+<input type="text" id="hero_2_power" name="hero[2][power]">
+    <label for="hero_2_bio">Hero's Bio</label>
+<input type="text" id="hero_2_bio" name="hero[2][bio]">
+<br>
+  <input type="submit">
 </form>
+

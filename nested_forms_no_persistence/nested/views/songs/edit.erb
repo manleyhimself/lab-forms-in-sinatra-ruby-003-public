@@ -1,0 +1,24 @@
+<form action="" method="post">
+  <p>
+    <label for="name">Artist Name</label>
+<input type="text" id="name" name="artist[name]" value="<%= @song.artist%>">
+  </p>
+  <p>
+    <label for="song">Song Name</label>
+<input type="text" id="song" name="artist[song_name]" value="<%= @song.title%>">
+  </p>
+   <p>
+    <label for="album">Album</label>
+<input type="text" id="album" name="artist[album]" value="<%= @song.album%>">
+  </p>
+  <p>
+    <label for="genre">Genre</label>
+<input type="text" id="genre" name="artist[genre]" value="<%= @song.genre%>">
+  </p>
+  <p>
+    <label for="length">Song Length</label>
+<input type="text" id="length" name="artist[song_length]" value="<%= @song.length%>">
+  </p>
+  <input type="submit">
+</form>
+

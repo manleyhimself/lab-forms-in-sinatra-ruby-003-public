@@ -1,3 +1,23 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  
+<h1> <%= session[:team] %> </h1>
+<br>
+<h2> Team Motto: <%= session[:motto] %> </h2>
+<br>
 
+<% session[:hero].each_with_index do |hero_hash, index| %>
+<h3> <%= "Hero #{index} Name: #{hero_hash[:name]}" %></h3>
+<br>
+<h4> <%= "Hero #{index} Name: #{hero_hash[:power]}" %></h4>
+<h4> <%= "Hero #{index} Name: #{hero_hash[:bio]}" %></h4>
+<br>
+<br>
+<% end %>
 
-
+</html>
+</body>
+</html>
